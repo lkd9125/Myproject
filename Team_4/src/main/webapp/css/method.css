@@ -1,0 +1,77 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>사용방법 페이지</title>
+<style type="text/css">
+
+*{
+	padding: 0;
+	margin: 0;	
+	/*
+	border: 1px solid;
+	*/
+}
+/*클릭하지 않았을때*/
+ a:link { color: white; text-decoration: none;}
+ /*한번 클릭 or 다녀갔던 곳*/
+ a:visited { color: white; text-decoration: none;}
+ /*마우스 가져갔을때*/
+ a:hover { color: #F15F5F; text-decoration: none;}
+body{
+	background-color: white;
+}
+
+/*최고 상단*/
+#up{
+	border-color: red;
+	height: 100px;
+	padding-left: 250px;
+}
+
+
+#up_left{
+	float: right;
+	margin-top: 68px;
+	margin-right: 20px;
+	color: #353535;
+}
+hr{
+	margin-right: 10px;
+}
+#content1{
+	border: 1px solid; 
+	margin-left: 340px;
+	margin-top: 70px;
+	width: 1100px;
+	height: 300px;
+}
+#content1_1{
+	text-align: center;
+	margin-top: 80px;
+}
+</style>
+
+<link type="text/css" rel="stylesheet" href="css/method.css">
+ 
+</head>
+<body>
+	<%@ include file="left_menu.jsp" %>
+	<div id="main">
+		<div id="up">
+			<div id="up_left">
+				<p>Home / Menu / <b>Mcs 코드</b></p>
+			</div>
+		</div>	
+		<hr>
+		<div id="content1">
+			<div id="content1_1">
+				<p> 내가만든 코드를 자랑하고 싶다? | 모르는 코드를 질문하고 싶다?</p>
+				<h2> 그럴땐 MY CODE SHARE 를 이용해 보세요!</h2>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
